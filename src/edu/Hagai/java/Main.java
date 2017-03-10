@@ -1,9 +1,23 @@
 package edu.Hagai.java;
 
-import java.util.Arrays;
-import java.util.List;
+import edu.Hagai.java.race.Driver;
 
 public class Main {
+
+    public  static  void  drive (Driver d){
+        d.drive();
+    }
+
+
+
+
+
+
+
+
+
+
+
 
     public static void main(String[] args) {
 	// write your code here
