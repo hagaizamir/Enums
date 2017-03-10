@@ -35,7 +35,7 @@ public class Cow extends Animal implements Driver, Runnable {
 
     @Override
     public void run() {
-        
+
     }
 }
    
