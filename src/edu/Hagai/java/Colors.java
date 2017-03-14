@@ -32,4 +32,14 @@ public enum Colors {
         }
         return null; //throe exception
     }
+    public static Colors fromint (int n) {
+        // return new Colors(n);
+        for (Colors  c: values()) {
+            if (c.aVal == n)
+                return c;
+
+        }
+        return null; //throw exception.
+
+    }
 }
